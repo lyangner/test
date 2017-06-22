@@ -3,7 +3,7 @@
 $array = array();
 
 /*Заполняем массив случайными числами: */
-echo '<table><tr><td>';
+echo '<table ><tr><td>';
 for ($k = 0; $k < 2; $k++):
     $array[$k] = $k;
     print_r($array[$k]);
