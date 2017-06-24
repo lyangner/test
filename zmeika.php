@@ -44,6 +44,6 @@ for ($y=1;$y<=4;$y++) {
     }
     $tbl .= '<tr>'.$tr.'</tr>';
 }
-echo '<table>'.$tbl.'</table>';
+echo '<table align="center" border="1" cellpadding="0" cellspacing="0">'.$tbl.'</table>';
 
 ?>
