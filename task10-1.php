@@ -4,7 +4,7 @@
 function forma()
 {
 ?>
-    <form name="forma" action="task2.php" method="GET" align="center">
+    <form name="forma" action="task10-1.php" method="GET" align="center">
         <p align="center"> <br>Введите месяц на русском языке: <input name="month" type="text"></p>
         <!--<input name="year" type="text">-->
     <p align="center"><input type="submit" value="Узнать количество дней"></p>
