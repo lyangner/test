@@ -45,5 +45,17 @@ for ($y=1;$y<=4;$y++) {
     $tbl .= '<tr>'.$tr.'</tr>';
 }
 echo '<table>'.$tbl.'</table>';
+    // todo доделать !!!
+
+/**
+ * @param mixed $data
+ */
+function pre ($data){
+    echo '<pre>';
+    print_r($data);
+    echo '</pre>';
+}
+
+
 
 ?>
