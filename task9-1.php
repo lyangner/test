@@ -5,7 +5,6 @@ function forma()
 ?>
     <form name="forma" action="task9-1.php" method="GET" align="center">
         <p align="center"> <br>Введите имя: <input name="imya" type="text"></p>
-        <!--<input name="year" type="text">-->
     <p align="center"><input type="submit" value="Go"></p>
     </form>
 <?php
