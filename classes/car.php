@@ -2,7 +2,6 @@
 include '..\function.php';
 class Car
 {
-    //const URL='...';
     public $model;
     public  $speed;
     public  $engine;
