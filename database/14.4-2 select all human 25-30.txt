@@ -1,0 +1,6 @@
+select CONCAT(Humans.Lname,' ',Humans.Fname) as Human, Films.title as Film
+from Watchers
+INNER JOIN Films on Films.id = Watchers.id_film
+INNER JOIN Humans on Humans.id = Watchers.id_human
+WHERE Films.title='Метро' and Humans.Age >= 25 and Humans.Age <= 30
+GROUP BY Watchers.id_human

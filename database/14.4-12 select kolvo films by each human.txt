@@ -1,0 +1,4 @@
+select Humans.id, CONCAT(Humans.Fname,' ',Humans.Lname) as Human, count(Watchers.id_human) as kolvo_prosmotrov
+from Humans
+left JOIN Watchers on Humans.id = Watchers.id_human
+GROUP BY Humans.id

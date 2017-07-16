@@ -1,0 +1,5 @@
+select Films.title as title, count(Watchers.id_human) as kolvo_prosmotrov
+from Watchers
+INNER JOIN Films on Films.id = Watchers.id_film
+GROUP BY Watchers.id_film
+HAVING  count(Watchers.id_human)>1

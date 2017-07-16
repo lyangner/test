@@ -1,0 +1,8 @@
+"1"	"Denis"	"Mikhailau"	"54"	"white"
+"2"	"Helen"	"Lianhner"	"55"	"white"
+"3"	"Andrej"	"Pronevich"	"38"	"black"
+"4"	"Artem"	"Shumskij"	"8"	"white"
+"5"	"Daria"	"Cygankova"	"50"	"black"
+"6"	"Alla"	"Parolina"	"28"	"white"
+"7"	"Svetlana"	"Schiglinskaja"	"21"	"white"
+"8"	"Dzmitrij"	"Amosov"	"35"	"black"

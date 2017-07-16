@@ -1,0 +1,8 @@
+UPDATE Films
+set `title`=CONCAT(`title`,' new')
+WHERE year(date_start)>year(NOW())-2
+
+
+
+
+

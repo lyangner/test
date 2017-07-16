@@ -1,0 +1,16 @@
+select Watchers.id_human as id_human, CONCAT(Humans.Fname,' ',Humans.Lname) as Human,  Films.title as title
+from Watchers
+INNER JOIN Films on Films.id = Watchers.id_film
+INNER JOIN Humans on Humans.id = Watchers.id_human
+WHERE ((Watchers.id_human=1) and (Watchers.date BETWEEN '2016-01-01' AND Now()))
+GROUP BY Films.title
+
+-- or 
+-- 
+-- select Watchers.id_human as id_human, CONCAT(Humans.Fname,' ',Humans.Lname) as Human,  Watchers.date as date, Films.title as title
+-- from Watchers
+-- INNER JOIN Films on Films.id = Watchers.id_film
+-- INNER JOIN Humans on Humans.id = Watchers.id_human
+-- WHERE ((Watchers.id_human=1) and (Watchers.date BETWEEN '2016-01-01' AND Now()))
+-- 
+-- 
