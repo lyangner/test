@@ -1,0 +1,4 @@
+select title, cash
+from Films
+where cash>50000 and cash<100000
+order by cash desc

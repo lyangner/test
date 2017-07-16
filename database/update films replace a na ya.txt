@@ -1,0 +1,3 @@
+UPDATE Films
+set `title`=REPLACE(`title`, 'à','ÿ')
+ 

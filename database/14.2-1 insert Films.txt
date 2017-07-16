@@ -1,0 +1,17 @@
+TRUNCATE TABLE Films;
+
+INSERT into Films
+(`title`, `length`, `author`,`cash`, `date_start`)
+VALUES ('A new story about the little girl','00:54:39','Кэмерон','99000','2010.11.10');
+
+INSERT into Films
+(`title`, `length`, `author`,`cash`, `date_start`)
+VALUES ('Апокалипсис','01:33:48','Спилберг','1700','2017.04.01');
+
+INSERT into Films
+(`title`, `length`, `author`,`cash`, `date_start`)
+VALUES ('Метро','01:48:00','Бондарчук','87800','2000.08.27');
+
+INSERT into Films
+(`title`, `length`, `author`,`cash`, `date_start`)
+VALUES ('new Чужой','02:10:03','Скот','56700000','2016.01.31');

@@ -1,0 +1,33 @@
+TRUNCATE TABLE Humans;
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Denis','Mikhailau','29','white');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Helen','Lianhner','30','white');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Andrej','Pronevich','13','black');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Artem','Shumskij','3','white');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Daria','Cygankova','45','black');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Alla','Parolina','23','white');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Svetlana','Schiglinskaja','16','white');
+
+INSERT into Humans
+(`Fname`, `Lname`, `Age`, `Color`)
+VALUES ('Dzmitrij','Amosov','10','black');

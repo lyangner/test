@@ -1,0 +1,3 @@
+UPDATE Films
+set `title`=REPLACE(`title`, 'new','hot')
+WHERE SUBSTRING(`title`, 1,3)='new'

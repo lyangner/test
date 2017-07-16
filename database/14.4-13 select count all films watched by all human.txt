@@ -1,0 +1,5 @@
+select Films.title as title,CONCAT(Humans.Fname,' ',Humans.Lname) as Human, count(Watchers.id_human)  as kolvo_prosmotrov
+from Watchers
+INNER JOIN Films on Films.id = Watchers.id_film
+INNER JOIN Humans on Humans.id = Watchers.id_human
+group by Watchers.id_film, Watchers.id_human

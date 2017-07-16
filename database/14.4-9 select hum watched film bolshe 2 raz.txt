@@ -1,0 +1,7 @@
+select Watchers.id_human as id, CONCAT(Humans.Fname,' ',Humans.Lname) as Human, Films.title as title, count(Watchers.id_human) as kolvo_prosmotrov
+from Watchers
+INNER JOIN Films on Films.id = Watchers.id_film
+INNER JOIN Humans on Humans.id = Watchers.id_human
+WHERE Films.title='Метро' 
+GROUP BY Watchers.id_human
+HAVING  count(Watchers.id_human)>2

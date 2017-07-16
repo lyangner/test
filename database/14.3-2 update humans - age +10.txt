@@ -1,0 +1,7 @@
+UPDATE Humans
+SET `Age` = `Age` + 10
+where id in (
+select id_human
+from Watchers
+GROUP BY id_human
+HAVING COUNT(id_film)>2)

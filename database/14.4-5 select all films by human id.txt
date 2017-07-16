@@ -1,0 +1,7 @@
+select Watchers.id_human, CONCAT(Humans.Fname,' ',Humans.Lname) as Human, Films.title 
+from Watchers
+INNER JOIN Films on Films.id = Watchers.id_film
+INNER JOIN Humans on Humans.id = Watchers.id_human
+WHERE Watchers.id_human=1
+GROUP BY Watchers.id_film
+order by Films.title 
