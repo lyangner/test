@@ -1,4 +1,3 @@
-
 /*
 Navicat MySQL Data Transfer
 
@@ -15,7 +14,6 @@ Date: 2017-08-07 01:09:21
 */
 
 SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for bus
 -- ----------------------------
