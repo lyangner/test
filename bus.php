@@ -15,22 +15,18 @@ include("lib/MyDb_bus.php");  /* Соединяемся с базой */
 <div style="text-align: center;">
     <div align="center"  style="display:inline-block;border:1px solid #ccc; padding:10px;margin-right:20px;vertical-align: top;">
         <form action="" method="GET" enctype="text/plain" border="1">
-
             <p align="center"><b>Найти ближайшую остановку:</b></p>
              <p align="center"><br>Введите ширину: <input type="text" name="latitude"/></p>
           <p align="center"><br>Введите долготу: <input type="text" name="longitude"/></p>
-
         <p align="center"><input type="submit" value="Подсчитать"></p>
         </form>
     </div>
     <div align="center"  style="display:inline-block;border:1px solid #ccc; padding:10px;margin-right:20px;vertical-align: top;">
         <form action="" method="GET" enctype="text/plain" border="1">
-
             <p align="center"><b>Найти остановки в радиусе:</b></p>
             <p align="center"><br>Введите ширину: <input type="text" name="latitude"/></p>
             <p align="center"><br>Введите longitude: <input type="text" name="longitude"/></p>
             <p align="center"><br>Введите долготу: <input type="text" name="radius"/></p>
-
             <p align="center"><input type="submit" value="Подсчитать"></p>
         </form>
     </div>
